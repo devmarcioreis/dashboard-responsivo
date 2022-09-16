@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========Icon========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--========JavaScript========-->
+    <script src="assets/js/main.js" defer></script>
+    <!--========CSS========-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+    <!--========Left========-->
+    <section class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <span class="icon"><i class="uil uil-estate"></i></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="uil uil-user-check"></i></span>
+                        <span class="title">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="uil uil-message"></i></span>
+                        <span class="title">Mensagens</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="uil uil-question-circle"></i></span>
+                        <span class="title">Ajuda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="uil uil-lock"></i></span>
+                        <span class="title">Senha</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="uil uil-signin"></i></span>
+                        <span class="title">Logar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="uil uil-setting"></i></span>
+                        <span class="title">Configurações</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--========Main========-->
+        <div class="main">
+            <div class="top">
+                <div class="toggle">
+                    <i class="uil uil-bars"></i>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="buscar">
+                    <i class="uil uil-search"></i>
+                </div>
+                <div class="user">
+                    <img src="assets/images/profile.png" alt="Foto de perfil">
+                </div>       
+            </div>
+
+            <!--========Cards========-->
+            <div class="cards">
+                <div class="card">
+                    <div>
+                        <div class="numbers">100</div>
+                        <div class="card-name">Visualizações</div>
+                    </div>
+                    <div class="card-icon">
+                        <i class="uil uil-eye"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">50</div>
+                        <div class="card-name">Vendas</div>
+                    </div>
+                    <div class="card-icon">
+                        <i class="uil uil-tag-alt"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">5</div>
+                        <div class="card-name">Comentários</div>
+                    </div>
+                    <div class="card-icon">
+                        <i class="uil uil-comment-alt-dots"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">92%</div>
+                        <div class="card-name">Lucro</div>
+                    </div>
+                    <div class="card-icon">
+                        <i class="uil uil-bill"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!--========List========-->
+            <div class="list">
+                <div class="recent">
+                    <div class="card-header">
+                        <h2>Vendas Recentes</h2>
+                        <a href="#" class="btn">Ver todos</a>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Nome</td>
+                                <td>Preço</td>
+                                <td>Pagamento</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Televisão</td>
+                                <td>R$ 2.999,00</td>
+                                <td>Pago</td>
+                                <td><span class="status delivered">Entregue</span></td>
+                            </tr>
+                            <tr>
+                                <td>Notebook</td>
+                                <td>R$ 4.999,00</td>
+                                <td>Pendente</td>
+                                <td><span class="status pending">Pendente</span></td>
+                            </tr>
+                            <tr>
+                                <td>Celular</td>
+                                <td>R$ 1.999,00</td>
+                                <td>Pago</td>
+                                <td><span class="status delivered">Entregue</span></td>
+                            </tr>
+                            <tr>
+                                <td>Video Game</td>
+                                <td>R$ 2.999,00</td>
+                                <td>Estorno</td>
+                                <td><span class="status return">Devolvido</span></td>
+                            </tr>
+                            <tr>
+                                <td>Teclado</td>
+                                <td>R$ 100,90</td>
+                                <td>Pago</td>
+                                <td><span class="status inprogress">Em rota</span></td>
+                            </tr>
+                            <tr>
+                                <td>Mouse</td>
+                                <td>R$ 59,90</td>
+                                <td>Pago</td>
+                                <td><span class="status delivered">Entregue</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+</body>
+</html>
