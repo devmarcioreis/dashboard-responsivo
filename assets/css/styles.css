@@ -211,7 +211,6 @@ body {
     display: grid;
     height: 30rem;
     padding: 2rem;
-    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
     border-radius: .5rem;
 }
 .container .main .list .recent .card-header {
